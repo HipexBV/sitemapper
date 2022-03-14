@@ -250,6 +250,7 @@ export default class Sitemapper {
           sites: [],
           errors: [{
             type: data.name,
+            error: data,
             url,
             retries: retryIndex,
           }]

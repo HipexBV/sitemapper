@@ -8,6 +8,7 @@ export interface SitemapperErrorData {
   type: string;
   url: string;
   retries: number;
+  error: any;
 }
 
 export interface SitemapperOptions {
